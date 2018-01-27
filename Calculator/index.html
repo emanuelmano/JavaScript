@@ -1,0 +1,46 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>JS Calculator</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div id="main">
+		<div class="keys">
+			<form name="calculator">
+				<input type="text" name="answer" id="result" /><br>
+		
+				<input type="button" value="1" id="first_1" onclick="take(this)">
+				<input type="button" value="2" id="first_2" onclick="take(this)"/>
+				<input type="button" value="3" id="first_3" onclick="take(this)"/>
+				<input type="button" value="/" onclick="divide()"/>
+				<br>
+
+				<input type="button" value="4" id="first_4" onclick="take(this)"/>
+				<input type="button" value="5" id="first_5" onclick="take(this)"/>
+				<input type="button" value="6" id="first_6" onclick="take(this)"/>
+				<input type="button" value="*" onclick="multiply()"/>
+				<br>
+
+				<input type="button" value="7" id="first_7" onclick="take(this)"/>
+				<input type="button" value="8" id="first_8" onclick="take(this)"/>
+				<input type="button" value="9" id="first_9" onclick="take(this)"/>
+				<input type="button" value="-" onclick="minus()"/>
+				<br>
+				
+				<input type="button" value="CE" onclick="clear_ce()"/>
+				<input type="button" value="0" id="zero" onclick="take(this)"/>
+				<input type="button" value="=" onclick="sum()"/>
+				<input type="button" value="+" id="sum_n" onclick="plus()"/>
+				<br>
+
+
+
+			</form>
+		</div>
+	</div>			
+	
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
